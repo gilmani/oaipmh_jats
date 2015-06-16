@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ======================================================== -->
 <!--        
-        Adapted from a stylesheet created by Janice Chan 01 July 2013, Edith Cowan University and 
+        Adapted from a stylesheet created by Janice Chan 01 July 2013 (Edith Cowan University) and 
         from a stylesheet created by user JMarie in the OxygenXML forum (http://www.oxygenxml.com/forum/topic8070.html).
 -->
 <!-- ======================================================== -->
