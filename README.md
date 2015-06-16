@@ -17,12 +17,12 @@ http://commons.pacificu.edu/do/oai/?metadataPrefix=document-export&verb=ListReco
 
 **You must remove the xsi schema declaration from the <OAI-PMH> element in the exported bepress XML in order for this stylesheet to work.
  
-**<Journal-meta> elements have fixed values and should be edited prior to transformations.
+**Journal-meta elements have fixed values and should be edited prior to transformations.
 
-**The filename in <xsl:result-document> is also partially fixed, and must be edited for each journal prior to transformation.
+**The filename in xsl:result-document is also partially fixed, and must be edited for each journal prior to transformation.
 
 ## Known issues:
 
-**If <abstract> and <contributor-group> elements have corresponding null values in the bepress XML, the closing tag (e.g. </element>) still writes to the output files.
+**If abstract and contributor-group elements have corresponding null values in the bepress XML, the closing tag (e.g. /abstract) still writes to the output files.
 
 
