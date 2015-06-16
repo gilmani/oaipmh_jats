@@ -8,7 +8,7 @@ This stylesheet is adapted from a stylesheet (for bepress XML to CrossRef XML) c
 
 This XSL stylesheet transforms OAI-PMH XML from the bepress Digital Commons platform to JATS DTD 1.1d2 XML. Input is issue-level data; output is as article-level files. Limited metadata fields are used, as this was originally created for the purpose of creating brief article records for deposit with Portico.
  
-The stylesheet is currently configured for use with fields associated with the "document-export" version of bepress' XML; however, it could easily be configured to work with the Dublin Core XML available through the "oai_dc" prefix (or the simple/qualified prefixes - "simple-dubline-core" and "qualified-dublin-core" as well).
+The stylesheet is currently configured for use with fields associated with the "document-export" version of bepress' XML; however, it could easily be configured to work with the Dublin Core XML available through the "oai_dc" prefix (or the simple/qualified prefixes - "simple-dublin-core" and "qualified-dublin-core" as well).
  
 To obtain bepress OAI XML data for a particular issue, append the base URL with volume and issue number, e.g.
 http://commons.pacificu.edu/do/oai/?metadataPrefix=document-export&verb=ListRecords&set=publication:eip/vol16/iss1/
