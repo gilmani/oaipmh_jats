@@ -13,7 +13,7 @@ The stylesheet is currently configured for use with fields associated with the "
 To obtain bepress OAI XML data for a particular issue, append the base URL with volume and issue number, e.g.
 http://commons.pacificu.edu/do/oai/?metadataPrefix=document-export&verb=ListRecords&set=publication:eip/vol16/iss1/
  
-Notes:
+## Notes:
 
 **You must remove the xsi schema declaration from the <OAI-PMH> element in the exported bepress XML in order for this stylesheet to work.
  
@@ -21,7 +21,7 @@ Notes:
 
 **The filename in <xsl:result-document> is also partially fixed, and must be edited for each journal prior to transformation.
 
-Known issues:
+## Known issues:
 
 **If <abstract> and <contributor-group> elements have corresponding null values in the bepress XML, the closing tag (e.g. </element>) still writes to the output files.
 
