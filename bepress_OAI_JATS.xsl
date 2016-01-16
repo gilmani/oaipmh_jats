@@ -18,7 +18,7 @@
         <xsl:for-each select="OAI-PMH/ListRecords/record/metadata/document-export/documents/document">    
                     <xsl:result-document doctype-public="-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d2 20140930//EN"
                         doctype-system="http://jats.nlm.nih.gov/publishing/1.1d2/JATS-journalpublishing1.dtd" 
-                        indent="yes" href="jlsc{articleid}.xml">
+                        indent="yes" href="jlsc{articleid}/jlsc{articleid}.xml">
                         <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.1d2" xml:lang="en">                            
                              <front>
                                 <journal-meta>
