@@ -19,7 +19,7 @@ http://commons.pacificu.edu/do/oai/?metadataPrefix=document-export&verb=ListReco
  
 **Journal-meta elements have fixed values and should be edited prior to transformations.
 
-**The filename in xsl:result-document is also partially fixed, and must be edited for each journal prior to transformation.
+**The folder and filename generated through the href attribute in xsl:result-document is also partially fixed, and must be edited for each journal prior to transformation.
 
 ## Known issues:
 
